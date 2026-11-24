@@ -1,0 +1,29 @@
+{
+  "name": "devops-midterm-23-ntu-cs-1219",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node --test",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zarnishfatima1219-code/devops-midterm-23-ntu-cs-1219.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zarnishfatima1219-code/devops-midterm-23-ntu-cs-1219/issues"
+  },
+  "homepage": "https://github.com/zarnishfatima1219-code/devops-midterm-23-ntu-cs-1219#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.15.0",
+    "globals": "^17.14.0"
+  }
+}
