@@ -5,7 +5,7 @@ function fee(weightKg) {
     throw new RangeError('weight must be a number greater than 0');
   }
   if (weightKg <= 1) return 200;
-  if (weightKg <= 5) return 350;
+  if (weightKg < 5) return 350;
   if (weightKg <= 20) return 800;
   return 1500;
 }
